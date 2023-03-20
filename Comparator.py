@@ -22,8 +22,8 @@ class Employee:
             return False
         
         
-emp1 = Employee(100000)
-emp2 = Employee(75000)
+emp1 = Employee(int(input("Salary of employee 1: ")))
+emp2 = Employee(int(input("Salary of employee 2: ")))
 
 if(emp1 < emp2):
     print('\n emp1 is lesser ')
